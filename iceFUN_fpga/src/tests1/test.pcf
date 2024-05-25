@@ -1,0 +1,58 @@
+# Oscillator
+set_io  clk         P7
+
+# Chip Enable Signals
+set_io  ce  L12
+set_io  ce2  P10
+
+# Write Enable Signal
+set_io  we  M9
+
+# Output Enable Signal
+set_io  oe  P9
+
+# Lower Byte Enable Signal
+set_io  lb  P8
+
+# Address Bus
+set_io  addr[0]     A3
+set_io  addr[1]     A2
+set_io  addr[2]     A1
+set_io  addr[3]     C3
+set_io  addr[4]     D3
+set_io  addr[5]     B1
+set_io  addr[6]     C1
+set_io  addr[7]     D1
+set_io  addr[8]     E1
+set_io  addr[9]     F3
+set_io  addr[10]    G3
+set_io  addr[11]    H3
+set_io  addr[12]    J3
+set_io  addr[13]    K3
+set_io  addr[14]    M3
+set_io  addr[15]    G1
+set_io  addr[16]    H1
+set_io  addr[17]    J1
+set_io  addr[18]    L1
+set_io  addr[19]    M1
+set_io  addr[20]    N1
+set_io  addr[21]    P1
+
+# Data Bus
+set_io  data[0]   B14
+set_io  data[1]   C12
+set_io  data[2]   C14
+set_io  data[3]   D12
+set_io  data[4]   D14
+set_io  data[5]   E12
+set_io  data[6]   E14
+set_io  data[7]   F12
+set_io  data[8]   F14
+set_io  data[9]   G12
+set_io  data[10]  G14
+set_io  data[11]  H12
+set_io  data[12]  J12
+set_io  data[13]  K12
+set_io  data[14]  K14
+set_io  data[15]  H11
+
