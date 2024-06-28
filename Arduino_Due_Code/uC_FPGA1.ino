@@ -116,11 +116,10 @@ void loop() {
 
     // Read back data
     for (address = 0; address <= 20; address++) {
-      unsigned long data = leer_datos(address);
-      Serial.print("address_fpga:");
+      Serial.print("address:");
       Serial.println(address);
-      Serial.print("data_fpga:");
-      Serial.println(data);
+      Serial.print("data:");
+      Serial.println(leer_datos(address));
       delayMicroseconds(1);
     }
     delay(1);
